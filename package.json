@@ -1,0 +1,15 @@
+{
+  "name": "100-lhr-gulp-cli",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {},
+  "scripts": {
+    "dev": "cross-env NODE_ENV=dev lhr-gulp-cli dev",
+    "build": "cross-env NODE_ENV=prod lhr-gulp-cli build",
+    "serve": "http-server dist -p 3001"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.2"
+  }
+}

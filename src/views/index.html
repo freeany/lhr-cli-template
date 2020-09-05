@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    ##include('../include/base.html')
+    <title>首页123</title>
+</head>
+
+<body>
+    <div id="app">qwer121rrr23</div>
+    <img src="/images/images.png" alt="">
+
+
+    <!-- 使用public文件夹下的文件   <script src="c.js"></script> -->
+    <script src="/c.js"></script>
+    <!-- build:js /js/vendor.js -->
+    <script src="/js/index.js"></script>
+    <script src="/js/index2.js"></script>
+    <!-- endbuild -->
+    <!-- build:js /js/lib/xuery.js -->
+    <script src="/js/lib/xuery.js"></script>
+    <!-- endbuild -->
+
+    <script>
+        console.log(xuery('#app'), 'ccc')
+    </script>
+</body>
+
+</html>
